@@ -1,0 +1,56 @@
+apply plugin: 'application'
+apply plugin: 'maven'
+apply plugin: "jacoco"
+apply plugin: "eclipse"
+apply plugin: "java"
+apply plugin: "groovy"
+
+
+group = 'com.leohart'
+version = '1.0.0-SNAPSHOT'
+
+ext.libraries = [
+	"commons-logging": "commons-logging:commons-logging:1.1.1",
+	"groovy-all": "org.codehaus.groovy:groovy-all:2.4.3",
+	"jssc": "org.scream3r:jssc:2.8.0",
+	"junit": "junit:junit:4.5",
+	"log4j": "log4j:log4j:1.2.14"
+]
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+
+	maven { url "https://repository.jboss.org/nexus/" }
+	maven { url "http://download.java.net/maven/2/" }
+	maven { url "http://repo.maven.apache.org/maven2" }
+	maven { url 'http://dl.bintray.com/content/johnrengelman/gradle-plugins' }
+
+	jcenter()
+}
+
+dependencies {
+	compile libraries."commons-logging"
+	compile libraries."groovy-all"
+	compile libraries."jssc"
+	runtime libraries."log4j"
+	testCompile libraries."junit"
+}
+
+
+jacoco { toolVersion = '0.7.1.201405082137' }
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+jacocoTestReport {
+	additionalSourceDirs = files(sourceSets.main.allSource.srcDirs)
+	sourceDirectories = files(sourceSets.main.allSource.srcDirs)
+	classDirectories =  files(sourceSets.main.output)
+	reports {
+		html.enabled = true
+		xml.enabled = true
+		csv.enabled = false
+	}
+}
