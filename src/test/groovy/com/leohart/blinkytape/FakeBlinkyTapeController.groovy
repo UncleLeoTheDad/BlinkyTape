@@ -4,7 +4,7 @@ import org.apache.commons.logging.Log
 import org.apache.commons.logging.LogFactory
 
 public class FakeBlinkyTapeController extends BaseBlinkyTapeController {
-
+	
 	private static final Log LOG = LogFactory.getLog(FakeBlinkyTapeController.class);
 	
 	private Boolean closed;

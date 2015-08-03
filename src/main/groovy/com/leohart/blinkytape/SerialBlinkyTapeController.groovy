@@ -13,7 +13,7 @@ import org.apache.commons.logging.LogFactory
  */
 public class SerialBlinkyTapeController extends BaseBlinkyTapeController {
 
-	private static final Log LOG = LogFactory.getLog(FakeBlinkyTapeController.class);
+	private static final Log LOG = LogFactory.getLog(SerialBlinkyTapeController.class);
 
 	private SerialPort serialPort;
 
