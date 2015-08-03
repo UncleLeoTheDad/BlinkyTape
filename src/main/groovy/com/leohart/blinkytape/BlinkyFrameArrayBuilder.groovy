@@ -1,7 +1,5 @@
 package com.leohart.blinkytape;
 
-import static org.junit.Assert.*
-
 import java.awt.Color
 import java.awt.image.BufferedImage
 
@@ -9,7 +7,6 @@ import javax.imageio.ImageIO
 
 import org.apache.commons.logging.Log
 import org.apache.commons.logging.LogFactory
-import org.junit.Test
 
 /**
  * A builder that converts a Bitmap image to an array of BlinkyFrames where the X coordinate of the bitmap is mapped to frames and the Y coordinate to lights on the frame.  

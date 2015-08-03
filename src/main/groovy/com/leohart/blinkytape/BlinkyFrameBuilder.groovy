@@ -1,7 +1,6 @@
 package com.leohart.blinkytape;
 
-import java.awt.Color;
-import java.util.Map;
+import java.awt.Color
 
 
 /**
