@@ -4,6 +4,9 @@ Java/Groovy implementation of a controller for the BlinkyTape device (http://bli
 The tests demonstrate how to use the library:
 https://github.com/leojhartiv/BlinkyTape/tree/master/src/test/groovy/com/leohart/blinkytape
 
+This test, when un-@Ignored, should provide a "smoke test" of your BlinkyTape integration:
+https://github.com/leojhartiv/BlinkyTape/blob/master/src/test/groovy/com/leohart/blinkytape/SerialBlinkyTapeControllerIntegrationTest.groovy
+
 # Major concepts:
 * BlinkyTapeController: a wrapper around the BlinkyTape USB/serial port interface.  Allows you to render one or more "BlinkyFrames"
 * BlinkyFrame:  represents a standard BlinkyTape light strip at a given moment in time
