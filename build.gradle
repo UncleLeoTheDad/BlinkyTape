@@ -7,7 +7,7 @@ apply plugin: "groovy"
 
 
 group = 'com.leohart'
-version = '1.0.0-SNAPSHOT'
+version = '1.0.0'
 
 ext.libraries = [
 	"commons-logging": "commons-logging:commons-logging:1.1.1",

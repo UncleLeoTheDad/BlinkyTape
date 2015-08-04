@@ -26,7 +26,7 @@ class BlinkyFrameArrayBuilderTest {
 
 		for (int x=0; x<IMAGE_WIDTH; x++){
 			for (int y=0; y<IMAGE_HEIGHT; y++){
-				LOG.info("Looking at frame ${x} and light ${y}...")
+				LOG.debug("Looking at frame ${x} and light ${y}...")
 				if (x==y){
 					Assert.assertEquals("Light ${y} on frame ${x} should have been white: ", Color.WHITE, frames[x].getLight(y));
 				}

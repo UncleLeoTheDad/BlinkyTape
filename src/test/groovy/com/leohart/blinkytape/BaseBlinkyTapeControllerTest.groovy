@@ -20,7 +20,7 @@ public class BaseBlinkyTapeControllerTest {
 	public void closeController(){
 		controller.close();
 	}
-
+ 
 	@Test
 	public void shouldBeAbleToChangeAllLightsToASingleColor(){
 		BlinkyFrame frame = new BlinkyFrameBuilder().withAllLightsSetTo(Color.BLUE)

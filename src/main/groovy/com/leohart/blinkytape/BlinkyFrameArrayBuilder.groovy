@@ -24,7 +24,7 @@ class BlinkyFrameArrayBuilder {
 
 	public BlinkyFrameArrayBuilder withImage(URL url){
 		BufferedImage image = ImageIO.read(url);
-
+ 
 		frames = new BlinkyFrame[image.getWidth()];
 
 		LOG.info("Converting image of (x:${image.getWidth()}, y:${image.getHeight()}) to BlinkyFrame[]...")
