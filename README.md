@@ -18,3 +18,5 @@ I built this library in order to tie BlinkyTape into my company's Continuous Int
   https://github.com/leojhartiv/build-whisperer
 There is a simply BlinkyTape implementation provided that allows you to connect Jenkins, Bamboo or any other REST/JSON based page up to the BlinkyTape.
 
+# Links:
+* The project's Continous Integration server: https://snap-ci.com/leojhartiv/BlinkyTape
