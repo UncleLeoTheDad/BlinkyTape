@@ -20,3 +20,5 @@ There is a simple BlinkyTape implementation provided that allows you to connect 
 
 # Links:
 * The project's Continous Integration server: https://snap-ci.com/leojhartiv/BlinkyTape
+
+[![](https://codescene.io/projects/1213/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/1213/jobs/latest-successful/results)
