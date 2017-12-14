@@ -16,7 +16,9 @@ https://github.com/leojhartiv/BlinkyTape/blob/master/src/test/groovy/com/leohart
 # Known Usage:
 I built this library in order to tie BlinkyTape into my company's Continuous Integration environment via the build-whisperer project I created a while back here:
   https://github.com/leojhartiv/build-whisperer
-There is a simply BlinkyTape implementation provided that allows you to connect Jenkins, Bamboo or any other REST/JSON based page up to the BlinkyTape.
+There is a simple BlinkyTape implementation provided that allows you to connect Jenkins, Bamboo or any other REST/JSON based page up to the BlinkyTape.
 
 # Links:
 * The project's Continous Integration server: https://snap-ci.com/leojhartiv/BlinkyTape
+
+[![](https://codescene.io/projects/1214/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/1214/jobs/latest-successful/results)
