@@ -10,12 +10,8 @@ target-eclipse
 .settings/
 .class
 *.class
-
 #gradle
 .gradle/
-gradlew
-gradlew.bat
-gradle/
 build/
 /bin/
 bin/
